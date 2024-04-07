@@ -1,20 +1,20 @@
 function [movement_angle]= extract_angle(datafilename,chosen_plane,segment)
-% This function extract the agnle between two sensors from the chosen
+% This function extract the angle between two sensors from the chosen
 % plane, and selected segment for calculation.
 % Input: 
 % datafilename : string = full path of the data file.
-%   chosen_plane : string = 'Sagittal' or 'Frontal' or 'Horizontal'   
+%   chosen_plane : string = 'Sagital' or 'Frontal' or 'Horizontal'
 % segment : (string or cell 1X2) =  the desired segment for calcuating the angle,
 %                                   if segment is cell of 2, first element is the segment and 
 %                                   the second element is the desired axis according to 
 %                                   the angle's plane:
 %                                   X - Horizontal 
 %                                   Y - Frontal
-%                                   Z - Sagittal
+%                                   Z - Sagital
 
 [quat_sensor1,quat_sensor2] = load_imu_data_2sensors(datafilename);
 switch chosen_plane
-    case 'Sagittal'
+    case 'Sagital'
         %   Convert quaterions to eularian angles [deg]
         eul_angle_sensor1 = quat2eul(quat_sensor1,segment{1}) * 180/pi;
         eul_angle_sensor2 = quat2eul(quat_sensor2,segment{1}) * 180/pi;
