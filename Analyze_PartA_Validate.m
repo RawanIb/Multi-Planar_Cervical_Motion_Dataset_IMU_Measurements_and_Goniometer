@@ -13,9 +13,15 @@ mkdir(results_path)
 [fileName, filePath] = uigetfile(fullfile(data_path,"*.*"), "Select a file");
 fullfilename_validate = fullfile(filePath, fileName);
 
-% Display the menu and get the user's choice
 options = {'Sagital', 'Frontal', 'Horizontal'};
-chosen_plane = questdlg('Select recorded plane:', 'Menu', options{:}, options{1});
+is_contained = cellfun(@(x) contains(lower(fileName),lower(x)),options);
+
+if any(is_contained)
+    chosen_plane = options{is_contained};
+else
+    % Display the menu and get the user's choice
+    chosen_plane = questdlg('Select recorded plane:', 'Menu', options{:}, options{1});
+end
 
 %% Extract the angles over time
 switch chosen_plane
