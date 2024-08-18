@@ -1,20 +1,18 @@
 # Ascertaining Cervical Range of Motion from IMU Sensors
+The dataset consists of folder of csv files stored in the `Dataset` directory for each subject. 
+Each csv file contains the recording session of a subject named after the experiment part and anatomical plane,
+with multiple columns representing the measurements taken during the experiment. 
 
-The dataset consists of Excel files stored in the `Dataset` directory. Each Excel file contains the recording sessions of a subject, with multiple sheets named after the experiment part and anatomical plane.
-
-- **File Naming Convention:** `{date}_{subject code}.xlsx`
+- **File Naming Convention:** `{date}_{subject code}_{experimental part}_{anatomical plane tested}.csv`
     - `date`: The date of the experiment.
     - `subject code`: Unique identifier for each subject.
-
-- **Sheet Naming Convention:** `{experimental part}_{anatomical plane tested}`
     - `experimental part`: Part of the experiment (e.g., partA, partB).
     - `anatomical plane tested`: Anatomical plane (e.g., frontal, horizontal, sagittal).
 
-For example, in the file `10.9_514.xlsx`, the sheet `partA_frontal` corresponds to the frontal plane data of subject 514 for experiment part A (Validation) on October 9th.
+For example, the file `10.9_514_partA_frontal.csv` contains the frontal plane data of subject 514 for experiment part A
+(Validation) on October 9th.
 
-Each sheet within the Excel file represents data from a specific combination of experiment part and anatomical plane.
-
-### Subject File Data Sheet Structure:
+### Subject File Data Structure:
 - **partA_frontal:** Data captured from the frontal plane during experiment part A (Validation).
 - **partA_horizontal:** Data from the horizontal plane during experiment part A (Validation).
 - **partA_sagittal:** Data from the sagittal plane during experiment part A (Validation).
