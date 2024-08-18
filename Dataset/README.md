@@ -1,5 +1,5 @@
 # Ascertaining Cervical Range of Motion from IMU Sensors
-The dataset consists of folder of csv files stored in the `Dataset` directory for each subject. 
+The dataset consists of a folder of csv files stored in the `Dataset` directory for each subject. 
 Each csv file contains the recording session of a subject named after the experiment part and anatomical plane,
 with multiple columns representing the measurements taken during the experiment. 
 
