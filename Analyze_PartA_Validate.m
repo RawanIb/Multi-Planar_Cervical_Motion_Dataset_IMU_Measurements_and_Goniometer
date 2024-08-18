@@ -51,6 +51,8 @@ fig = figure('WindowState','maximized');
 for iseg = 1:nsegments    
     subplot(1,nsegments,iseg)    
     plot(movement_angle_segs{iseg,1},'Color','b');hold on;
+    xlabel('Sample')
+    ylabel('Angle [degree]')
     if strcmp(chosen_plane,'Horizontal')
         title({"Segment = "+ segments{iseg,1}});
     else

@@ -51,6 +51,8 @@ for iseg = 1:nsegments
     subplot(1,nsegments,iseg)
     plot(movement_angle_segs_pre{iseg,1},'Color','b');hold on;
     plot(movement_angle_segs_post{iseg,1},'Color','r');hold off;
+    xlabel('Sample')
+    ylabel('Angle [degree]')
     if strcmp(chosen_plane,'Horizontal')
         title({"Segment = "+ segments{iseg,1}});
     else
@@ -108,6 +110,8 @@ for iseg = 1:nsegments
     subplot(1,nsegments,iseg)
     plot(movement_angle_segs_pre{iseg,1}(onset1:end)+offset1,'Color','b');hold on;
     plot(movement_angle_segs_post{iseg,1}(onset2:end)+offset2,'Color','r');hold off;
+    xlabel('Sample')
+    ylabel('Angle [degree]')
     if strcmp(chosen_plane,'Horizontal')
         title({"Segment = "+ segments{iseg,1}});
     else
@@ -130,4 +134,5 @@ else
 end
 
 %% Save angle to csv file
-angles_to_csv(angle_matrix, fullfilename_pre, results_path)
+angles_to_csv(mean_angle_prepost, fullfilename_pre, results_path)
+
