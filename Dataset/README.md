@@ -23,8 +23,8 @@ For example, the file `10.9_514_partA_frontal.csv` contains the frontal plane da
 - **partB_sagittal_Pre:** Data from the sagittal plane during experiment part B, test (Pre).
 - **partB_sagittal_Post:** Data from the sagittal plane during experiment part B, retest (Post).
 
-### Sheet Data Columns Description:
-Each sheet contains columns representing various measurements taken during the experiment, including:
+### CSV File Data Columns Description:
+Each file contains columns representing various measurements taken during the experiment, including:
 - `X_s_`: Time vector in seconds, corresponding to the data EMG1 column (above)
 - `AvantiSensor1_EMG1__filter_RemoveMean_`: Filtered EMG data from sensor 1.
 - `X_s__1`: Time in seconds, corresponding to the data W1 column (below).
