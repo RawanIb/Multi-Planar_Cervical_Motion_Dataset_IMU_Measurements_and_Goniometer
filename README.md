@@ -37,3 +37,67 @@ The data structure is detailed in the manuscript.
 ### Run the code
 * Change data_path variable to the path of the data.
 * Run the script to get the angle along the session, and save the results in the 'Results' folder.
+
+### Part A (Validation)
+```matlab
+Analyze_PartA_Validation
+```
+1. Select the desired data file for the analysis.
+
+   <img src="Figures/partA_step1.png" alt="partA_step1.png" width="800" />
+   
+2. The script will plot the angle extracted from the IMU sensors for the 6 movements of the desired plane. 
+Choose the desired segment and proceed to the next step, as instructed in the pop-up window.
+
+   <img src="Figures/partA_step2.png" alt="partA_step2.png" width="800" />
+   
+3. Example of 12 data cursors selected for the 6 movements of the desired plane.
+
+   <img src="Figures/partA_step3.png" alt="partA_step3.png" width="800" />
+   
+4. The angle extracted from the IMU sensors as csv file.
+
+   <img src="Figures/partA_step4.png" alt="partA_step4.png" width="800" />
+   
+
+### Part B (Reliability)
+```matlab
+Analyze_PartB_Reliability
+```
+1. Select the desired trails for the analysis, first pre then post.
+    
+   <img src="Figures/partB_step1a.png" alt="partB_step1a.png" width="800" />
+   
+   <img src="Figures/partB_step1a.png" alt="partB_step1b.png" width="800" />
+
+2. Select the desired anatomical plane for the analysis.
+
+   <img src="Figures/partB_step2.png" alt="partB_step2.png" width="800" />
+   
+3. Follow the instructions in the pop-up window to calibrate the data.
+
+   <img src="Figures/partB_step3a.png" alt="partB_step3a.png" width="800" />
+   
+3.1. Select two points for the calibration (Pre - Blue, Pre - Red).
+    
+   <img src="Figures/partB_step3b.png" alt="partB_step3b.png" width="800" />
+
+3.2. Adjust offset and onset of the angles according to the calibration points.
+
+   <img src="Figures/partB_step3c.png" alt="partB_step3c.png" width="800" />
+
+4. Follow the instructions in the pop-up window and choose the desired segment and select 24 points.
+
+    <img src="Figures/partB_step4.png" alt="partB_step4.png" width="800" />
+
+5. Example of 24 data cursors selected for the 6 movements of the desired plane.
+
+    <img src="Figures/partB_step5a.png" alt="partB_step5a.png" width="800" />
+    
+    <img src="Figures/partB_step5b.png" alt="partB_step5b.png" width="800" />
+    
+    <img src="Figures/partB_step5c.png" alt="partB_step5c.png" width="800" />
+
+6. The angle extracted from the IMU sensors as csv file.
+
+    <img src="Figures/partB_step6.png" alt="partB_step6.png" width="800" />
