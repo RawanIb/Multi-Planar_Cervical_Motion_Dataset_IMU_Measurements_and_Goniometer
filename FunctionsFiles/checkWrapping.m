@@ -1,3 +1,6 @@
+%% This software is for non-commercial use only.
+%% Commercial use requires a separate license.
+
 function [movement_angle] = checkWrapping(movement_angle)
     movement_angle_wrapp = wrapTo360(movement_angle);
     diff_movement_angle = diff(movement_angle_wrapp);

@@ -101,3 +101,19 @@ Analyze_PartB_Reliability
 6. The angle extracted from the IMU sensors as csv file.
 
     <img src="Figures/partB_step6.png" alt="partB_step6.png" width="800" />
+
+## License
+
+This software is provided for non-commercial use only.
+For commercial use, you must obtain a commercial license by contacting Ramot (yair.eran@ramot.org).
+
+Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+
+This software is licensed under a
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
+
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg

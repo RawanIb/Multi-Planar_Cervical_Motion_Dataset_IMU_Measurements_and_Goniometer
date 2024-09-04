@@ -1,3 +1,6 @@
+%% This software is for non-commercial use only.
+%% Commercial use requires a separate license.
+
 function [dataCursorIndices_pre,angle_selected_segment_pre,...
     dataCursorIndices_post,angle_selected_segment_post] = get_cursros_pre_post(cursor_info)
     dataCursorIndices_pre = [];

@@ -1,3 +1,6 @@
+%% This software is for non-commercial use only.
+%% Commercial use requires a separate license.
+
 function mean_angle_prepost = extract_mean_angle_pre_post(cursor_info)
 
     [dataCursorIndices_pre, angle_selected_segment_pre, dataCursorIndices_post, angle_selected_segment_post] = get_cursros_pre_post(cursor_info);

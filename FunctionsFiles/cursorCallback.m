@@ -1,3 +1,6 @@
+%% This software is for non-commercial use only.
+%% Commercial use requires a separate license.
+
 % Define the data cursor callback function
 function output_txt = cursorCallback(~, event_obj)
 pos = get(event_obj, 'Position');

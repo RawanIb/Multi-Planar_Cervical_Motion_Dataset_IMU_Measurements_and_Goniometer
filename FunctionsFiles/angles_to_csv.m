@@ -1,3 +1,6 @@
+%% This software is for non-commercial use only.
+%% Commercial use requires a separate license.
+
 function angles_to_csv(mean_angle_prepost, fullfilename, results_path)
 num_movements = size(mean_angle_prepost, 1);
 row_labels = cell(num_movements, 1);

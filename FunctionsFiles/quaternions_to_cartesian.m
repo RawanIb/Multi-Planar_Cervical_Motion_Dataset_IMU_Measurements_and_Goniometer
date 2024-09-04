@@ -1,3 +1,6 @@
+%% This software is for non-commercial use only.
+%% Commercial use requires a separate license.
+
 function cartesian_vectors = quaternions_to_cartesian(quaternions, seq)
     % Input: quaternions matrix (each row is a quaternion [w, x, y, z]), seq ('xyz', 'zyx', 'zyz')
     % Output: cartesian_vectors matrix (each row is a Cartesian vector [x, y, z])

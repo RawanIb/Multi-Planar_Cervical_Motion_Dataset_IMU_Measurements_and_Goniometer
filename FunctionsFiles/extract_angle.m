@@ -1,3 +1,6 @@
+%% This software is for non-commercial use only.
+%% Commercial use requires a separate license.
+
 function [movement_angle]= extract_angle(datafilename,chosen_plane,segment)
 % This function extract the angle between two sensors from the chosen
 % plane, and selected segment for calculation.

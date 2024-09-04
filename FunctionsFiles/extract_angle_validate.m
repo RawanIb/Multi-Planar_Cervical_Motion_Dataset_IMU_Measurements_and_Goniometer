@@ -1,3 +1,6 @@
+%% This software is for non-commercial use only.
+%% Commercial use requires a separate license.
+
 function angle_to_baseline = extract_angle_validate(cursor_info,n_cursors)
 if length(cursor_info)==n_cursors
     angle_selected_segment = cursor_info(1).Target.YData;

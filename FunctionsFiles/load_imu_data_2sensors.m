@@ -1,3 +1,6 @@
+%% This software is for non-commercial use only.
+%% Commercial use requires a separate license.
+
 function [quat_sensor1,quat_sensor2] = load_imu_data_2sensors(datafilename)
 % This function load the quaterion data of the two sensors from csv file of
 % DESLSYS data structure.

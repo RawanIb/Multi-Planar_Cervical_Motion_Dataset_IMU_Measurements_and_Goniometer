@@ -1,3 +1,6 @@
+%% This software is for non-commercial use only.
+%% Commercial use requires a separate license.
+
 function cursor_info = manual_cursor(fig,n_cursors)
 
 if n_cursors ==12
