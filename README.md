@@ -1,4 +1,4 @@
-# Ascertaining-cervical-range-of-motion-from-IMU-sensors
+# Multi-Planar Cervical Motion Dataset: IMU Measurements and Goniometer
 This repository includes Matlab code for extract relative angle between two IMU sensors.
 The code is based on the following paper: Ascertaining cervical range of motion from IMU sensors.
 
